@@ -1,0 +1,60 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Products styles */
+.products {
+    margin-bottom: 30px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* Form styles */
+.contact {
+    margin-bottom: 30px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+input, textarea {
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling boxes */
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: #ddd;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Submission display */
+.submission {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
